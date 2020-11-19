@@ -1,2 +1,9 @@
-body {
-  color: pink; }
+.navbar {
+  height: 46px;
+  background-color: #2f2f2f; }
+  .navbar a {
+    color: ghostwhite; }
+
+.layout {
+  width: 100vh;
+  height: 100vh; }
