@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mpiechulek/SCSS-template/issues"
   },
-  "homepage": "https://github.com/mpiechulek/SCSS-template#readme"
+  "homepage": "https://github.com/mpiechulek/SCSS-template#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
