@@ -1,4 +1,19 @@
 .layout {
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
+  
+
+    display: grid;
+    grid-template-rows: [navbar-s] 46px [navbar-e content-s] 1fr [contnet-e] 1fr;
+    grid-template-columns: [s] 1fr [e];
+
+    &__navbar {
+        grid-row: navbar-s/navbar-e;
+        grid-column: s/e;
+    }
+
+    &__content {
+        grid-row: content-s/content-e;
+        grid-column: s/e;
+    }
 }
